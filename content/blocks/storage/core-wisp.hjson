@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: Wisp
+description: The most important construct. If this dies, the Zone is lost.
+requirements: [
+  lead/800
+  solid-mana/500
+]
+isFirstTier: true
+size: 3
+unitType: alpha
+squareSprite: false
+health: 600
+armor: 11
+itemCapacity: 1000
+unitCapModifier: 12
+alwaysUnlocked: true
+category: effect
+research: {
+  planet: magilia
+  root: true
+  name: Magilia, Mins Dustaeu
+}

@@ -1,0 +1,54 @@
+type: PowerTurret
+name: Wonder
+description: Simple and reliable turret that shoots typeless magic at nearby constructs.
+size: 2
+reload: 80
+inaccuracy: 4
+range: 130
+outlineColor: 362339
+shootSound: magicShootSmall
+shootType: {
+  type: BasicBulletType
+  backColor: ba88d7
+  frontColor: e6a4f1
+  trailColor: e6a4f1
+	trailLength: 4
+	trailWidth: 1.5
+  height: 3
+  width: 4
+  damage: 27
+  pierce: true
+  pierceCap: 1
+  buildingDamageMultiplier: 0.5
+  trailEffect: {
+			type: MultiEffect
+			effects: [
+				missileTrailSmoke,
+				{
+					type: ParticleEffect
+					lifetime: 8
+					length: 9
+					colorFrom: e6a4f1
+					colorTo: ba88d7
+				}
+			]
+		}
+}
+category: turret
+squareSprite: false
+research: core-wisp
+requirements: [
+  solid-mana/20
+  lead/55
+]
+consumes: {
+  power: 0.3
+    liquids: [
+  source/0.3
+    ]
+}
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: mins-
+}

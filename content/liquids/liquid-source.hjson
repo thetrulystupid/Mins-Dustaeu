@@ -1,0 +1,14 @@
+name: Source
+description: Main ammo source for most turrets on Magilia. Somewhat volatile.
+heatCapacity: 0
+explosiveness: 0.3
+temperature: 0.5
+coolant: false
+gas: true
+color: ffffff00
+flammability: 0.6
+gasColor: ffffff00
+barColor: ffffff33
+incinerable: true
+lightColor: ffffff00
+research: core-wisp

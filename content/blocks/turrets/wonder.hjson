@@ -68,7 +68,6 @@ consumes: {
   source/0.3
     ]
 }
-}
 drawer: {
   type: DrawTurret
   basePrefix: mins-

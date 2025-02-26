@@ -10,7 +10,8 @@ shootSound: magicShootSmall
 ammoTypes: {
 	lead: {
 		type: BasicBulletType
-		speed: 3,
+		speed: 4,
+		lifetime: 45
 		backColor: 6f687e
 		frontColor: ab99d3
 		damage: 37,
@@ -27,12 +28,13 @@ ammoTypes: {
 	},
 	solid-mana: {
 		type: BasicBulletType
-		speed: 2.25,
+		speed: 3.25,
+		lifetime: 53
 		backColor: 535395
 		frontColor: abcfff
 		damage: 28,
-		width: 6
-		height: 5
+		width: 5
+		height: 7
 		trailColor: 97aaf4
 		trailLength: 3
 		trailWidth: 2

@@ -56,7 +56,6 @@ ammoTypes: {
 		}
 }
 	},
-}
 category: turret
 squareSprite: false
 research: core-wisp

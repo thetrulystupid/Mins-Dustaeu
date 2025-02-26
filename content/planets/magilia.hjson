@@ -1,0 +1,102 @@
+localizedName: Magilia
+description: A magic-based planet with many invasive species. These mostly being types of Constructs, summoned.
+alwaysUnlocked: true
+mesh: [
+ {
+    //placeholder terrain
+    type: NoiseMesh
+    planet: magilia
+    divisions: 5
+    seed: 51
+    radius: 1.442
+    color1: 535395
+    color2: abcfff
+    octaves: 2.4
+    persistence: 1.6
+  }
+  {
+    //placeholder terrain
+    type: NoiseMesh
+    planet: magilia
+    divisions: 5
+    seed: 37
+    color1: 7a245f
+    color2: d067af
+    octaves: 4.2
+    persistence: 1.4
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: magilia
+   speed: 1.13
+   radius: 0.09
+   divisions: 6
+   color: ffcbef
+   octaves: 3
+   persistence: 0.35
+   scl: 1
+   thresh: 0.75
+  }
+  {
+   type: HexSkyMesh
+   planet: magilia
+   speed: 1.33
+   radius: 0.13
+   divisions: 6
+   color: dfedff
+   octaves: 3
+   persistence: 0.5
+   scl: 0.9
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 1
+radius: 3.9
+minZoom: 4.6
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: false
+sectorSeed: 14513
+bloom: false
+visible: true
+atmosphereColor: 222b42
+iconColor: 7a245f
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-wisp
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  "lead",
+  "solid-mana",
+  "liquid-source"
+]

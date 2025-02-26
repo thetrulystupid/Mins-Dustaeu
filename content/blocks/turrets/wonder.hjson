@@ -2,8 +2,7 @@ type: ItemTurret
 name: Wonder
 description: Simple and reliable turret that shoots typeless magic at nearby constructs.
 size: 2
-reload: 80
-inaccuracy: 4
+reload: 87
 range: 130
 outlineColor: 362339
 shootSound: magicShootSmall
